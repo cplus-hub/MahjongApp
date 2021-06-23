@@ -39,9 +39,9 @@ spinner_back -> 未選取Spinner樣式。
 layout
 ====
 activity_main -> 放側邊攔的地方。
-alertdialogview -> AlertDialog 介面。
+alertdiaglog_yaku -> AlertDialog介面, 役種介紹。
+alertdialogview -> AlertDialog 介面, 速查表。
 app_bar_main -> 上方列, 可以顯示目前位置。
-commentlayout -> 留言區List介面。
 content_main -> Fragment替換的地方。
 fragmnet_comment -> 顯示留言區。
 fragment_home -> 介紹APP的頁面。
@@ -49,7 +49,9 @@ fragment_message -> 列出各貼文標題的頁面。
 fragment_producer -> 介紹我的頁面。
 fragment_score -> 分數計算的頁面。
 fragment_upload -> 上傳貼文的頁面。
-messagelayout -> fragment_message中ListView顯示的格式。
+layout_comment -> 留言區List介面。
+layout_message -> fragment_message中ListView顯示的格式。
+layout_yaku -> 役種List介面。
 myspinner -> fragment_score中Spinner顯示的格式。
 nav_header_main -> 側邊攔樣式。
 
