@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/teal_700"
+    android:orientation="vertical"
+    tools:context=".ScoreFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/spinner_back"
+            android:drawSelectorOnTop="true"
+            android:minWidth="0dp"
+            android:prompt="@string/planet_prompt"
+            android:spinnerMode="dialog" />
+
+        <Spinner
+            android:id="@+id/spinner2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/spinner_back"
+            android:drawSelectorOnTop="true"
+            android:minWidth="0dp"
+            android:prompt="@string/planet_prompt"
+            android:spinnerMode="dialog" />
+
+        <Spinner
+            android:id="@+id/spinner3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/spinner_back"
+            android:drawSelectorOnTop="true"
+            android:minWidth="0dp"
+            android:prompt="@string/planet_prompt"
+            android:spinnerMode="dialog" />
+
+        <Spinner
+            android:id="@+id/spinner4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/spinner_back"
+            android:drawSelectorOnTop="true"
+            android:minWidth="0dp"
+            android:prompt="@string/planet_prompt"
+            android:spinnerMode="dialog" />
+
+        <Spinner
+            android:id="@+id/spinner5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/spinner_back"
+            android:drawSelectorOnTop="true"
+            android:minWidth="0dp"
+            android:prompt="@string/planet_prompt"
+            android:spinnerMode="dialog" />
+
+        <Spinner
+            android:id="@+id/spinner6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/spinner_back"
+            android:drawSelectorOnTop="true"
+            android:minWidth="0dp"
+            android:prompt="@string/planet_prompt"
+            android:spinnerMode="dialog" />
+
+        <Spinner
+            android:id="@+id/spinner7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/spinner_back"
+            android:drawSelectorOnTop="true"
+            android:minWidth="0dp"
+            android:prompt="@string/planet_prompt"
+            android:spinnerMode="dialog" />
+
+        <Spinner
+            android:id="@+id/spinner8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/spinner_back"
+            android:drawSelectorOnTop="true"
+            android:minWidth="0dp"
+            android:prompt="@string/planet_prompt"
+            android:spinnerMode="dialog" />
+
+        <Spinner
+            android:id="@+id/spinner9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/spinner_back"
+            android:drawSelectorOnTop="true"
+            android:minWidth="0dp"
+            android:prompt="@string/planet_prompt"
+            android:spinnerMode="dialog" />
+
+        <Spinner
+            android:id="@+id/spinner10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/spinner_back"
+            android:drawSelectorOnTop="true"
+            android:minWidth="0dp"
+            android:prompt="@string/planet_prompt"
+            android:spinnerMode="dialog" />
+
+        <Spinner
+            android:id="@+id/spinner11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/spinner_back"
+            android:drawSelectorOnTop="true"
+            android:minWidth="0dp"
+            android:prompt="@string/planet_prompt"
+            android:spinnerMode="dialog" />
+
+        <Spinner
+            android:id="@+id/spinner12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/spinner_back"
+            android:drawSelectorOnTop="true"
+            android:minWidth="0dp"
+            android:prompt="@string/planet_prompt"
+            android:spinnerMode="dialog" />
+
+        <Spinner
+            android:id="@+id/spinner13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/spinner_back"
+            android:drawSelectorOnTop="true"
+            android:minWidth="0dp"
+            android:prompt="@string/planet_prompt"
+            android:spinnerMode="dialog" />
+
+        <Spinner
+            android:id="@+id/spinner14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/spinner_back"
+            android:drawSelectorOnTop="true"
+            android:minWidth="0dp"
+            android:prompt="@string/planet_prompt"
+            android:spinnerMode="dialog" />
+
+        <Button
+            android:id="@+id/btn_sort"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/black"
+            android:text="計算" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:gravity="right">
+
+            <ImageButton
+                android:id="@+id/img_btn_yaku"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/remind" />
+
+            <ImageButton
+                android:id="@+id/img_btn_remind"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/remind" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Spinner
+            android:id="@+id/spinner_"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/spinner_back"
+            android:drawSelectorOnTop="true"
+            android:minWidth="0dp"
+            android:prompt="@string/planet_prompt"
+            android:spinnerMode="dialog" />
+
+        <Spinner
+            android:id="@+id/spinner_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/spinner_back"
+            android:drawSelectorOnTop="true"
+            android:minWidth="0dp"
+            android:prompt="@string/planet_prompt"
+            android:spinnerMode="dialog" />
+
+        <Spinner
+            android:id="@+id/spinner_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/spinner_back"
+            android:drawSelectorOnTop="true"
+            android:minWidth="0dp"
+            android:prompt="@string/planet_prompt"
+            android:spinnerMode="dialog" />
+
+        <Spinner
+            android:id="@+id/spinner_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/spinner_back"
+            android:drawSelectorOnTop="true"
+            android:minWidth="0dp"
+            android:prompt="@string/planet_prompt"
+            android:spinnerMode="dialog" />
+
+        <Spinner
+            android:id="@+id/spinner_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/spinner_back"
+            android:drawSelectorOnTop="true"
+            android:minWidth="0dp"
+            android:prompt="@string/planet_prompt"
+            android:spinnerMode="dialog" />
+
+        <Spinner
+            android:id="@+id/spinner_6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/spinner_back"
+            android:drawSelectorOnTop="true"
+            android:minWidth="0dp"
+            android:prompt="@string/planet_prompt"
+            android:spinnerMode="dialog" />
+
+        <Spinner
+            android:id="@+id/spinner_7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/spinner_back"
+            android:drawSelectorOnTop="true"
+            android:minWidth="0dp"
+            android:prompt="@string/planet_prompt"
+            android:spinnerMode="dialog" />
+
+        <Spinner
+            android:id="@+id/spinner_8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/spinner_back"
+            android:drawSelectorOnTop="true"
+            android:minWidth="0dp"
+            android:prompt="@string/planet_prompt"
+            android:spinnerMode="dialog" />
+
+        <Spinner
+            android:id="@+id/spinner_9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/spinner_back"
+            android:drawSelectorOnTop="true"
+            android:minWidth="0dp"
+            android:prompt="@string/planet_prompt"
+            android:spinnerMode="dialog" />
+
+        <Spinner
+            android:id="@+id/spinner_10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/spinner_back"
+            android:drawSelectorOnTop="true"
+            android:minWidth="0dp"
+            android:prompt="@string/planet_prompt"
+            android:spinnerMode="dialog" />
+
+        <Spinner
+            android:id="@+id/spinner_11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/spinner_back"
+            android:drawSelectorOnTop="true"
+            android:minWidth="0dp"
+            android:prompt="@string/planet_prompt"
+            android:spinnerMode="dialog" />
+
+        <Spinner
+            android:id="@+id/spinner_12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/spinner_back"
+            android:drawSelectorOnTop="true"
+            android:minWidth="0dp"
+            android:prompt="@string/planet_prompt"
+            android:spinnerMode="dialog" />
+
+        <Spinner
+            android:id="@+id/spinner_13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/spinner_back"
+            android:drawSelectorOnTop="true"
+            android:minWidth="0dp"
+            android:prompt="@string/planet_prompt"
+            android:spinnerMode="dialog" />
+
+        <Spinner
+            android:id="@+id/spinner_14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/spinner_back"
+            android:drawSelectorOnTop="true"
+            android:minWidth="0dp"
+            android:prompt="@string/planet_prompt"
+            android:spinnerMode="dialog" />
+
+        <Spinner
+            android:id="@+id/spinner_15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/spinner_back"
+            android:drawSelectorOnTop="true"
+            android:minWidth="0dp"
+            android:prompt="@string/planet_prompt"
+            android:spinnerMode="dialog" />
+
+        <Spinner
+            android:id="@+id/spinner_16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/spinner_back"
+            android:drawSelectorOnTop="true"
+            android:minWidth="0dp"
+            android:prompt="@string/planet_prompt"
+            android:spinnerMode="dialog" />
+
+        <Spinner
+            android:id="@+id/spinner_17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/spinner_back"
+            android:drawSelectorOnTop="true"
+            android:minWidth="0dp"
+            android:prompt="@string/planet_prompt"
+            android:spinnerMode="dialog" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="莊家"
+                    android:textSize="25dp" />
+
+                <CheckBox
+                    android:id="@+id/checkbox_dealer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="自風"
+                    android:textSize="25dp" />
+
+                <Spinner
+                    android:id="@+id/spinner_player_wind"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/spinner_back"
+                    android:drawSelectorOnTop="true"
+                    android:minWidth="0dp"
+                    android:prompt="@string/planet_prompt"
+                    android:spinnerMode="dialog" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="場風"
+                    android:textSize="25dp" />
+
+                <Spinner
+                    android:id="@+id/spinner_wind"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/spinner_back"
+                    android:drawSelectorOnTop="true"
+                    android:minWidth="0dp"
+                    android:prompt="@string/planet_prompt"
+                    android:spinnerMode="dialog" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="天胡/地胡"
+                    android:textSize="25dp" />
+
+                <CheckBox
+                    android:id="@+id/checkbox_blessing"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="寶牌"
+                    android:textSize="25dp" />
+
+                <Spinner
+                    android:id="@+id/spinner_dora_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/spinner_back"
+                    android:drawSelectorOnTop="true"
+                    android:minWidth="0dp"
+                    android:prompt="@string/planet_prompt"
+                    android:spinnerMode="dialog" />
+
+                <Spinner
+                    android:id="@+id/spinner_dora_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/spinner_back"
+                    android:drawSelectorOnTop="true"
+                    android:minWidth="0dp"
+                    android:prompt="@string/planet_prompt"
+                    android:spinnerMode="dialog" />
+
+                <Spinner
+                    android:id="@+id/spinner_dora_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/spinner_back"
+                    android:drawSelectorOnTop="true"
+                    android:minWidth="0dp"
+                    android:prompt="@string/planet_prompt"
+                    android:spinnerMode="dialog" />
+
+                <Spinner
+                    android:id="@+id/spinner_dora_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/spinner_back"
+                    android:drawSelectorOnTop="true"
+                    android:minWidth="0dp"
+                    android:prompt="@string/planet_prompt"
+                    android:spinnerMode="dialog" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="裡寶牌"
+                    android:textSize="25dp" />
+
+                <Spinner
+                    android:id="@+id/spinner_dora_5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/spinner_back"
+                    android:drawSelectorOnTop="true"
+                    android:minWidth="0dp"
+                    android:prompt="@string/planet_prompt"
+                    android:spinnerMode="dialog" />
+
+                <Spinner
+                    android:id="@+id/spinner_dora_6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/spinner_back"
+                    android:drawSelectorOnTop="true"
+                    android:minWidth="0dp"
+                    android:prompt="@string/planet_prompt"
+                    android:spinnerMode="dialog" />
+
+                <Spinner
+                    android:id="@+id/spinner_dora_7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/spinner_back"
+                    android:drawSelectorOnTop="true"
+                    android:minWidth="0dp"
+                    android:prompt="@string/planet_prompt"
+                    android:spinnerMode="dialog" />
+
+                <Spinner
+                    android:id="@+id/spinner_dora_8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/spinner_back"
+                    android:drawSelectorOnTop="true"
+                    android:minWidth="0dp"
+                    android:prompt="@string/planet_prompt"
+                    android:spinnerMode="dialog" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="符"
+                    android:textSize="25dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="翻"
+                    android:textSize="25dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/tv_result"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="結果"
+                    android:textSize="25dp" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

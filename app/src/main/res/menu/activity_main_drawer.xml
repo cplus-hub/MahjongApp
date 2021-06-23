@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group
+        android:id="@+id/group_id"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_send"
+            android:title="首頁" />
+        <item
+            android:id="@+id/nav_score"
+            android:icon="@drawable/ic_menu_send"
+            android:title="成績計算方式" />
+        <item
+            android:id="@+id/nav_message"
+            android:icon="@drawable/ic_menu_send"
+            android:title="討論區" />
+        <item
+            android:id="@+id/nav_producer"
+            android:icon="@drawable/ic_menu_send"
+            android:title="製作人" />
+
+    </group>
+</menu>

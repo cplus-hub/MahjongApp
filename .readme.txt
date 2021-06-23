@@ -1,0 +1,79 @@
+摘要
+====
+期中報告時說希望期末能夠做出計算日本麻將分數APP, 於是寫了這個程式。
+
+頁面
+====
+首頁 -> 介紹這個APP的頁面。
+討論區 -> 可以發表貼文、留言進行討論。
+日麻計分 -> 當初期中說想做出的功能。
+製作人 -> 介紹一下我本人。
+
+====
+AndroidManifest -> APP基本設定、權限等。
+====
+
+程式
+====
+ArtistList -> 新增一筆資料庫回傳的標題名稱及作者。
+Classes -> 放一些小的Class
+CommentFragment -> 顯示貼文內文, 留言區。
+HomeFragment -> Navigation Drawer Activity創建的一個Fragment, 用於介紹APP。
+MahjongResult -> 用於新增Mahjong、回傳翻數的功能。
+MainActivity -> 設定測邊欄哪些Fragment可以看到。
+MessageFragment -> 有查詢、選取和新增貼文的功能。
+MyAdapter -> 用於設定ScoreFragment中Spinner功能。
+Objects -> 放一些小的Object
+ProducerFragment -> 我的介紹, 可以連結至我的FB及IG。
+ScoreFragment -> 麻將計分頁面。
+UploadFragment -> 將圖片上傳至Imgur、Database等。
+VolleySingleton -> 參考網路Class, 功能為協助上傳至DB。
+
+drawable
+====
+圖片區及一些樣式設定。
+ic_launcher_background, ic_launcher_foreground -> APP Icon 。
+side_nav_bar -> 側邊攔上方背景。
+spinner_back -> 未選取Spinner樣式。
+
+layout
+====
+activity_main -> 放側邊攔的地方。
+alertdialogview -> AlertDialog 介面。
+app_bar_main -> 上方列, 可以顯示目前位置。
+commentlayout -> 留言區List介面。
+content_main -> Fragment替換的地方。
+fragmnet_comment -> 顯示留言區。
+fragment_home -> 介紹APP的頁面。
+fragment_message -> 列出各貼文標題的頁面。
+fragment_producer -> 介紹我的頁面。
+fragment_score -> 分數計算的頁面。
+fragment_upload -> 上傳貼文的頁面。
+messagelayout -> fragment_message中ListView顯示的格式。
+myspinner -> fragment_score中Spinner顯示的格式。
+nav_header_main -> 側邊攔樣式。
+
+menu
+====
+activity_main_drawer -> 側邊攔的顯示欄位。
+main -> 側邊攔內容加在這裡。
+
+mipmap
+====
+ic_launcher, ic_launcher_round -> Icon。
+
+navigation
+====
+mobile_navigation -> 用於設定Fragment間移動。
+
+values
+====
+colors -> 內建顏色。
+dimens -> 內建字體。
+drawables -> menu 的 Icon。
+string -> 常用字串區。
+themes -> 預設背景主題, 分為亮版及暗版。
+
+xml
+====
+network_security_config -> 用於連線至Internet。

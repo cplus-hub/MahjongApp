@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.mahjong_test.HomeFragment"
+        android:label="首頁"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_upload"
+        android:name="com.example.mahjong_test.UploadFragment"
+        android:label="新增貼文"
+        tools:layout="@layout/fragment_upload" />
+
+    <fragment
+        android:id="@+id/nav_comment"
+        android:name="com.example.mahjong_test.CommentFragment"
+        android:label="討論區"
+        tools:layout="@layout/fragment_comment" />
+
+    <fragment
+        android:id="@+id/nav_message"
+        android:name="com.example.mahjong_test.MessageFragment"
+        android:label="討論區"
+        tools:layout="@layout/fragment_message" >
+        <action
+            android:id="@+id/action_nav_message_to_nav_upload"
+            app:destination="@id/nav_upload" />
+        <action
+            android:id="@+id/action_nav_message_to_nav_comment"
+            app:destination="@id/nav_comment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_score"
+        android:name="com.example.mahjong_test.ScoreFragment"
+        android:label="日麻計分"
+        tools:layout="@layout/fragment_score" />
+
+    <fragment
+        android:id="@+id/nav_producer"
+        android:name="com.example.mahjong_test.ProducerFragment"
+        android:label="製作人"
+        tools:layout="@layout/fragment_producer" />
+
+</navigation>
