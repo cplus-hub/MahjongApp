@@ -221,7 +221,8 @@ class ScoreFragment : Fragment() {
                 tv_sort.text = "大四喜 雙倍役滿"
             } else if (list_mahjong.chuuren()) {
                 tv_sort.text = "九連寶燈 役滿"
-            }
+            } else
+                tv_sort.text = "沒聽哦~"
         }
         return root
     }

@@ -1,14 +1,14 @@
 package com.example.mahjong_test
 
 class MahjongResult(list: Array<Int?>, list_2: Array<Int?>) {
-    //var list = list
-    var list_2 = list_2
+    var list = list
+    //var list_2 = list_2
     var text_array = arrayListOf<String>()
 
-    var list = arrayListOf<Int>(1,1,1,2,2,2,3,3,3,4,4,4,21,21)
+    //測試用
+    //var list = arrayListOf<Int>(1,1,1,2,2,2,3,3,3,4,4,4,21,21)
 
 
-    var return_text = ""
 
 
 
